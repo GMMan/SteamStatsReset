@@ -47,5 +47,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Steamworks.NET\Standalone\Steamworks.NET.csproj">
+      <Project>{b3543600-587c-4fdc-994a-cb0bdc629a7e}</Project>
+      <Name>Steamworks.NET</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
